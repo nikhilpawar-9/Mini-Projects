@@ -12,6 +12,7 @@ The application allows users to enter student details and view results based on 
 - CSS
 - JavaScript
 
+
 **2. QuaraPosts :-**
 QuaraPosts is a simple backend project built using Node.js and Express.js. I created this project to understand how REST APIs work and how backend applications handle different HTTP requests.
 In this project, I implemented CRUD operations such as creating a post, viewing all posts, updating posts (PUT/PATCH), and deleting posts. I did not use any database in this project; instead, I focused on learning API development and handling data in memory.
@@ -27,6 +28,7 @@ In this project, I implemented CRUD operations such as creating a post, viewing 
 - Express.js
 - JavaScript
 
+
 **3. Photography :-**
 Photography is a simple static website created using HTML and CSS. I built this project to improve my frontend development skills and practice designing responsive web pages.
 The website contains a clean layout with different photography sections and focuses on basic web design concepts like page structure, styling, navigation, and image presentation.
@@ -38,6 +40,7 @@ The website contains a clean layout with different photography sections and focu
 ## Tech Stack
 - HTML
 - CSS
+
 
 **4. To-Do List :-**
 A simple task management application built using HTML, CSS, and JavaScript to practice DOM manipulation and JavaScript concepts.
@@ -65,3 +68,22 @@ Asteroid Dodge Game is a simple browser-based game developed using HTML, CSS, an
 - HTML
 - CSS
 - JavaScript
+
+
+**6. Tea Management System :-**
+This is a full-stack CRUD application built using Spring Boot, MySQL, HTML, CSS, and JavaScript. It allows users to manage tea records by adding, viewing, updating, deleting, and searching tea details through a simple and responsive interface.
+
+## Features
+- Developed RESTful APIs for CRUD operations.
+- Integrated Spring Data JPA with MySQL.
+- Performed Create, Read, Update, Delete, and Search by ID operations.
+- Connected frontend and backend using the Fetch API.
+- Secured application endpoints using Spring Security.
+
+## Tech Stack
+- Spring Boot
+- Spring Security
+- MySQL
+- HTML
+- CSS
+JavaScript
