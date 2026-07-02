@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tea Management System</title>
+    <link rel="icon" type="image/jpeg" href="images/teaImage.jpeg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Tea Management System</h1>
+
+    <div class="form-box">
+
+        <div class="input-section">
+
+            <input type="number" id="teaId" placeholder="Tea Id" required>
+
+            <input type="text" id="teaType" placeholder="Tea Type" required>
+
+            <input type="number" id="teaCost" placeholder="Tea Cost" required>
+
+        </div>
+
+        <div class="button-section">
+
+            <button onclick="addTea()">Add Tea</button>
+
+            <button onclick="getAllTeas()">Get All Teas</button>
+
+            <button onclick="getTeaById()">Get Tea By Id</button>
+
+            <button onclick="updateTea()">Update Tea</button>
+
+            <button onclick="deleteTea()">Delete Tea</button>
+
+        </div>
+
+    </div>
+
+    <div id="output"></div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
